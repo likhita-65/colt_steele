@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <title>Flexbox</title>
+  </head>
+  <body>
+    <div class="container">
+        <h1 class="text-center display-4">Flexbox</h1>
+        <div class="border border-dark d-flex justify-content-around mb-5" style="height: 200px">
+            <!-- justify-content-start/end/center/between/around -->
+            <button class="btn btn-info btn-lg">LARGE</button>
+            <button class="btn btn-primary">SMALL</button>
+            <button class="btn btn-warning">SMALL</button>
+        </div>
+
+        <div class="border border-dark d-flex justify-content-center align-items-center" style="height: 200px">
+            <!-- centered vertically and horizontally -->
+            <button class="btn btn-info btn-lg">LARGE</button>
+            <button class="btn btn-primary">SMALL</button>
+            <button class="btn btn-warning">SMALL</button>
+        </div>
+        
+        <div class="border border-dark d-flex justify-content-start align-items-end" style="height: 200px">
+          <!-- flex-row by default -->
+          <!-- centered vertically and horizontally -->
+          <button class="btn btn-info btn-lg">LARGE</button>
+          <button class="btn btn-primary">SMALL</button>
+          <button class="btn btn-warning">SMALL</button>
+      </div>
+
+      <div class="border border-dark d-flex flex-row-reverse justify-content-start align-items-end" style="height: 200px">
+        <!-- flex-row-reverse(main axis starts from *right*) -->
+        <!-- centered vertically and horizontally -->
+        <button class="btn btn-info btn-lg">LARGE</button>
+        <button class="btn btn-primary">SMALL</button>
+        <button class="btn btn-warning">SMALL</button>
+      </div>
+
+      <div class="border border-dark d-flex flex-column justify-content-center align-items-start" style="height: 200px">
+        <!-- flex-column(justify-content- now works on cross axis i.e.,top to bottom)
+                        (align-items- now works on main axis i.e.,left to right)
+            TRY THEM BY USING start AND end, THEN YOU'LL NOTICE THE CHANGE -->
+        <button class="btn btn-info btn-lg">LARGE</button>
+        <button class="btn btn-primary">SMALL</button>
+        <button class="btn btn-warning">SMALL</button>
+        </div>
+      
+      <div class="border border-dark d-flex flex-column-reverse justify-content-start align-items-end" style="height: 200px">
+        <!-- flex--reverse(justify-content- works on cross axis but dir:buttom to top)
+                        (align-items- works on main axis but dir:right to left) 
+            TRY THEM BY USING start AND end, THEN YOU'LL NOTICE THE CHANGE-->
+        <button class="btn btn-info btn-lg">LARGE</button>
+        <button class="btn btn-primary">SMALL</button>
+        <button class="btn btn-warning">SMALL</button>
+      </div>
+
+      <h1 class="display-4 text-center">EXAMPLE TIME</h1>
+      <!-- TO SET THE BUTTONS TO BE IN A COLUMN ON  xs AND sm BUT TO BE IN A ROW(SPREAD OUT) FROM md -->
+      <div class="d-flex flex-column flex-md-row justify-content-between">
+        <button class="btn btn-dark btn-lg">Link 1</button>
+        <button class="btn btn-dark btn-lg">Link 2</button>
+        <button class="btn btn-dark btn-lg">Link 3</button>
+        <button class="btn btn-dark btn-lg">Link 4</button>
+        <button class="btn btn-dark btn-lg">Link 5</button>
+        <button class="btn btn-dark btn-lg">Link 6</button>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>

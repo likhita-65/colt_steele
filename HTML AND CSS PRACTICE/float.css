@@ -1,0 +1,11 @@
+div{
+	width:100px;
+	float:left; /*to get the two divs on same line*/
+}
+#one{
+	background:red;
+}
+
+#two{
+	background:purple;
+}

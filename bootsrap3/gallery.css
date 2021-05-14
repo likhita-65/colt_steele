@@ -1,0 +1,44 @@
+body{
+	padding-top: 70px;
+}
+
+.jumbotron{
+	color:#2c3e50;
+	background:#ecf0f1;
+}
+
+.navbar-inverse{
+	background:#2c3e50;
+}
+
+/*SELECTING ANCHOR TAGS DOESN'T CHANGE THE COLOR OF THE CONTENT ON NAVBAR*/
+/*
+a{
+	color:white;
+}*/
+/*WHEN YOU INSPECT THE CURRENT WEBPAGE, YOU'LL FIND A CLASS WHICH HAS MOR "SPECIFICITY"(COPIED AND PASTED BELOW)*/
+/*AND YOU CAN CHECK ON THE WEBPAGE ITSELF BY UNTICKING THE COLOR, THEN IT CHANGES TO WHITE*/
+/*.navbar-inverse .navbar-nav>li>a{
+	color:#9d9d9d;
+}*/
+/*NOW CHANGE THE COLOR TO WHITE*/
+.navbar-inverse .navbar-nav>li>a{
+	color:white;
+}
+
+
+/*TO CHANGE THE "IMGS" COLOR TO WHITE*/
+/*IT'S INSIDE OF navbar-brand class*/
+/*.navbar-brand{
+	color:white;
+}*/
+/*BUT SAMEEEE PROBLEMMMMM*/
+/*INSPECT AGAIN*/
+/*.navbar-inverse .navbar-brand {
+    color: #9d9d9d;
+ }*/
+ /*NOW CHANGE THE COLOR TO WHITE*/
+ .navbar-inverse .navbar-brand {
+    color: white;
+ }
+

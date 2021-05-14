@@ -1,0 +1,46 @@
+/*font-family*/
+p{
+	font-family: Arial;
+}
+
+h1{
+	font-family: Georgia;
+}
+
+/*font-size*/
+h1{
+	font-size: 20px;
+}
+
+/*There's another way to set the font size with em values.*/
+span{
+	font-size: 2.0em; /*em=parent element font-size in pixels*/
+}
+
+/*font-weight*/
+p{
+	font-weight: bold; /*normal/bold/100-800(i.e.,1/2/3/4..../100/200/300...800)*/
+}
+
+/*line-height*/
+p{
+	line-height: 1.5;
+}
+
+/*text-align*/
+h1{
+	text-align: right;
+}
+
+p{
+	text-align: center;
+}
+
+/*text-decoration*/
+p{
+	text-decoration: underline;
+}
+
+h1{
+	text-decoration: line-through;
+}

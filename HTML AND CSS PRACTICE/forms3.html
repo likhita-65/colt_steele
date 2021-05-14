@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Forms Demo</title>
+</head>
+<body>
+	<h1>Login</h1>
+	<!-- action-where the form sends data to -->
+	<!-- method-what http method (get/post) -->
+	<!-- default- the form sends data to the same page itself(action), get(method) -->
+	<form action="http://wikipedia.org" method="get">
+		<label>
+			Username:
+			<input name="username" type="text" placeholder="username">
+		</label>
+		<label>
+			Password:
+			<input name="password" type="password" placeholder="password">
+		</label>
+
+		<input type="Submit">
+	</form>
+	<!-- ------------------------------------------------------------------------------------------------- -->
+
+	<form action="http://wikipedia.org" method="get">
+		<label for="username">Username:</label>
+		<input id="username" name="username" type="text" placeholder="username">
+		<label for="password">Password:</label>
+		<input id="password" name="password" type="password" placeholder="password">
+
+		<input type="Submit">
+	</form>
+
+</body>
+</html>

@@ -1,0 +1,13 @@
+/*USING RGBA*/
+h1{
+	color:rgba(0,200,100,1);
+}
+
+li{
+	color:rgba(0,200,100,.8);
+}
+
+h4{
+	color:rgba(0,200,100,.2);
+}
+/*TO CHECK, LINK THIS FILE TO aboutMe.html*/

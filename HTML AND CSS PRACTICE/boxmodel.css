@@ -1,0 +1,25 @@
+p{
+	/*Content-width and height*/
+
+	width:400px;
+	/*height:100px;*/
+	/*width: 50%;(50 % of the parent element*/
+
+	/*Borders*/
+
+	border:2px solid blue;
+	/*border-bottom/border-top..etc:100px;*/
+
+	/*Padding-is the space b/w the element and the border*/
+	/*padding:10px*/ /*is added on all sides*/;
+	padding-left:100px;
+
+	/*Margin*/
+	/*margin: 100px;(is added on all sides)*/
+	/*margin-top:500px;(only on one side)*/
+	/*margin: 20px 40px 500px 100px;/*(top right bottom left)*/
+	/*margin:0 auto 0 auto;*/
+	/*margin:0 auto;*//*(top,bottom to zero and left,right to auto)*/
+	margin:50px 20px;
+
+}

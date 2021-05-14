@@ -1,0 +1,31 @@
+h1{
+	color:rgba(0,200,100,0.8);
+	/*TO SET BORDER, WE NEED WIDTH COLOR STYLE*/ 
+	/*METHOD 1*/
+
+	/*border-color: green;
+	border-width: 5px;
+	border-style: solid;*/
+
+	/*METHOD-2*/
+
+	border: 8px dashed rgb(255,100,80);/*irrespective of the order*/
+}
+
+h4{
+	background: rgb(255,100,80);
+}
+
+/*body{
+	background: pink;
+}TO SET BG COLOR*/
+
+/*TO SET A BG IMAGE*/
+body{
+	background: url(https://images-na.ssl-images-amazon.com/images/I/8162wgFO8rL._AC_SL1500_.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;/* to stretch the image to cover the entire page*/
+}
+
+
+/*TO CHECK, LINK THIS FILE TO aboutMe.html*/
